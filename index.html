@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="cover"></div>
+        <div class="content">
+            <div id="timer-display"></div>
+        <div class="container">
+            <div class="inner-container">
+                <h3>HOME</h3>
+                <div class="panel" id="home-result">0</div>
+                <div class="buttons"><button onclick="addHome(1)">+1</button><button onclick="addHome(2)">+2</button><button onclick="addHome(3)">+3</button></div>
+            </div>
+            <div class="inner-container"> 
+                <h3>GUEST</h3>
+                <div class="panel" id="guest-result">0</div>
+                               <div class="buttons"><button onclick="addGuest(1)">+1</button><button onclick="addGuest(2)">+2</button><button onclick="addGuest(3)">+3</button></div>
+            </div>
+        </div>
+        </div>
+        <button class="restart" onclick="restart()">Restart</button>
+        <script src="index.js"></script>
+    </body>
+</html>
